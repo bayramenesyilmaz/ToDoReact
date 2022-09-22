@@ -1,7 +1,7 @@
 
 # To Do List - React
 
-Live [To Do React](https://bayramenesyilmaz.github.io/cikolataKupleri/ToDoReact/)
+Live [To Do React](https://bayramenesyilmaz.github.io/ToDoReact/)
 
 ![todolist](./img/ss1.png)
 
