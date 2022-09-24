@@ -12,7 +12,7 @@ function Section() {
   /* LocalStorage tan verileri çekme işlemi */
   useEffect(() => {
     const getLocalNotes = JSON.parse(localStorage.getItem("notes"))
-    setToDoList(getLocalNotes)
+    
     if (getLocalNotes === null) {
       setToDoList([])
     } else {
@@ -157,7 +157,7 @@ function Section() {
       <footer className="footer">
         <span className="todo-count">
           <strong>{toDoList.filter((note) => note.isChecked === false).length} </strong>
-          items left
+          {toDoList.length > 1 ? "items" : "item"} left
         </span>
 
         <ul className="filters">
